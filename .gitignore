@@ -1,0 +1,23 @@
+# Node.js (server & client)
+node_modules/
+npm-debug.log
+
+# Build output
+dist/
+build/
+
+# Env files
+.env
+.env.local
+
+# Arduino build artifacts
+*.hex
+*.elf
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
