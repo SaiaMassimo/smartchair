@@ -321,29 +321,3 @@ module.exports = {
 };
 
 
-/*// Get historical posture data
-app.get('/api/history/:chairId', async (req, res) => {
-  try {
-    const { chairId } = req.params;
-    const { limit = 100, from, to } = req.query;
-
-    const query = { chairId };
-
-    if (from || to) {
-      query.timestamp = {};
-      if (from) query.timestamp.$gte = new Date(from);
-      if (to) query.timestamp.$lte = new Date(to);
-    }
-
-    const history = await PostureData.find(query)
-      .sort({ timestamp: -1 })
-      .limit(parseInt(limit))
-      .select('-__v');
-
-    res.json(history);
-  } catch (error) {
-    console.error('Error retrieving history:', error);
-    res.status(500).json({ error: 'Server error' });
-  }
-});*/
-
