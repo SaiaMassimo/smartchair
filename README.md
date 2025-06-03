@@ -28,7 +28,7 @@ An IoT project that uses pressure sensors on a chair and computer vision (PoseNe
 ## Installation
 
 ### 1. Installa le dipendenze del Server
-Naviga nella directory server ed esegui:
+Navigate to the server directory and run:
 ```bash
 cd server
 npm install
